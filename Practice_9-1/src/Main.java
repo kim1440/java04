@@ -11,13 +11,13 @@ public class Main {
             num = sc.nextInt();
 
             if (num >= 0 && num <= 100) {
-                System.out.println(num + "은(는) 0~100 사이의 정수입니다.");
+                System.out.println(num + "0~100 사이의 정수입니다.");
             } else {
-                System.out.println(num + "은(는) 0~100 사이의 정수가 아닙니다.");
+                System.out.println(num + "0~100 사이의 정수가 아닙니다.");
             }
 
         } else {
-            System.out.println("유효한 정수가 아닙니다. num 기본값 = " + num);
+            System.out.println("유효한 정수가 아닙니다.");
         }
 
         sc.close();

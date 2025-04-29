@@ -18,7 +18,7 @@ public class CoffeeOrder {
                 basePrice = 4500;
                 break;
             default:
-                System.out.println("지원하지 않는 음료 종류입니다.");
+                System.out.println("지원하지 않는 음료 종류 입니다.");
                 scanner.close();
                 return;
         }
@@ -42,7 +42,7 @@ public class CoffeeOrder {
                 return;
         }
 
-        System.out.println("옵션을 선택하세요: 1.기본, 2.샷추가, 3.시럽추가, 4.샷,시럽추가");
+        System.out.println("옵션을 선택하세요: 1.기본, 2.샷 추가, 3.시럽 추가, 4.샷,시럽 추가");
         int option = scanner.nextInt();
         int optionPrice;
         switch (option) {
@@ -65,7 +65,7 @@ public class CoffeeOrder {
         }
 
         int totalPrice = basePrice + sizePrice + optionPrice;
-        System.out.println("최종 가격은 " + totalPrice + "원입니다.");
+        System.out.println("최종 가격은 " + totalPrice + "원 입니다.");
 
         scanner.close();
     }
